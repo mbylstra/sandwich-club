@@ -1,2 +1,4 @@
-<h1>fillings go here</h1>
-Fillings: <%= @fillings %>
+<h1>Fillings</h1>
+<%= for filling <- @fillings do %>
+  <p><%= filling.name %></p>
+<% end %>
