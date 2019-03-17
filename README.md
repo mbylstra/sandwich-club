@@ -1,3 +1,17 @@
+# My Notes:
+
+- to run it via docker:
+   - `docker-compose build`
+   - `docker-compose run`
+- to run it without docker:
+   - `mix phx.server`
+
+
+
+--------------------------------------------------------------------------------
+# Standard Phoenix readme:
+
+
 # SandwichClub
 
 To start your Phoenix server:

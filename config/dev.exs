@@ -71,5 +71,5 @@ config :sandwich_club, SandwichClub.Repo,
   username: "postgres",
   password: "postgres",
   database: "sandwich_club_dev",
-  hostname: "localhost",
+  hostname: System.get_env("PGHOST") || "localhost",
   pool_size: 10
